@@ -1,0 +1,281 @@
+.homepg-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.homepg-homepg {
+  width: 100%;
+  height: 1080px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  background: linear-gradient(89deg, rgba(37, 22, 51, 1) 0%, rgba(44, 29, 62, 1) 24%, rgba(15, 14, 48, 1) 100%);
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+}
+.homepg-frame3 {
+  top: 0px;
+  left: 0px;
+  width: 1920px;
+  height: 60px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) ;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(51, 17, 119, 1);
+}
+.homepg-mainmenu {
+  gap: 50px;
+  top: 20px;
+  left: 364px;
+  width: 96px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+}
+.homepg-home {
+  top: 11px;
+  left: 92px;
+  width: 136px;
+  height: 40px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(51, 17, 119, 1);
+}
+.homepg-text {
+  top: 5px;
+  left: 39px;
+  color: rgba(255, 168, 18, 1);
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) ;
+  font-style: Regular;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.homepg-discover {
+  top: 9px;
+  left: 232px;
+  width: 128px;
+  height: 40px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(51, 17, 119, 1);
+}
+.homepg-text02 {
+  top: 5px;
+  left: 15px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.homepg-ourproduscts {
+  top: 9px;
+  left: 364px;
+  width: 169px;
+  height: 40px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(51, 17, 119, 1);
+}
+.homepg-text04 {
+  top: 5px;
+  left: 8px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.homepg-about {
+  top: 9px;
+  left: 533px;
+  width: 125px;
+  height: 40px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(51, 17, 119, 1);
+}
+.homepg-text06 {
+  top: 5px;
+  left: 29px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.homepg-contact {
+  top: 11px;
+  left: 658px;
+  width: 122px;
+  height: 40px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(51, 17, 119, 1);
+}
+.homepg-text08 {
+  top: 5px;
+  left: 13px;
+  color: rgba(255, 255, 255, 1);
+  width: 96px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.homepg-login {
+  top: 11px;
+  left: 1292px;
+  width: 110px;
+  height: 40px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(245, 219, 252, 1);
+}
+.homepg-text10 {
+  top: 9px;
+  left: 34px;
+  color: rgba(1, 12, 33, 1);
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.homepg-signup {
+  top: 10px;
+  left: 1437px;
+  width: 111px;
+  height: 40px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(245, 219, 252, 1);
+}
+.homepg-text12 {
+  top: 9px;
+  left: 28px;
+  color: rgba(1, 12, 33, 1);
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.homepg-magicfairytalebookconcept1 {
+  top: 60px;
+  left: 0px;
+  width: 1920px;
+  height: 1023px;
+  position: absolute;
+}
+.homepg-openbookwithfairytalescene526831078421 {
+  top: 60px;
+  left: 0px;
+  width: 1920px;
+  height: 1020px;
+  position: absolute;
+}
+.homepg-fullshotwomanhammockworking2321512055031 {
+  top: 60px;
+  left: 0px;
+  width: 1920px;
+  height: 1023px;
+  position: absolute;
+}
+.homepg-text14 {
+  top: 95px;
+  left: 124px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 128px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.homepg-text16 {
+  top: 259px;
+  left: 77px;
+  color: rgba(255, 168, 18, 1);
+  width: 517px;
+  height: auto;
+  position: absolute;
+  font-size: 36px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: 45px;
+  font-stretch: normal;
+  text-decoration: none;
+}
